@@ -217,7 +217,7 @@ document.querySelectorAll('input').forEach(input => {
 document.addEventListener('DOMContentLoaded', function() {
     const backToTopButton = document.getElementById('back-to-top');
 
-    // Show/hide back to top button based on scroll position
+    // Show/hide button based on scroll position
     window.addEventListener('scroll', function() {
         if (window.pageYOffset > 300) {
             backToTopButton.classList.add('show');
@@ -232,30 +232,5 @@ document.addEventListener('DOMContentLoaded', function() {
             top: 0,
             behavior: 'smooth'
         });
-    });
-});
-
-// Floating Phone Icon Enhancement
-document.addEventListener('DOMContentLoaded', function() {
-    const floatingPhone = document.getElementById('floating-phone');
-    const phoneLink = floatingPhone.querySelector('.phone-link');
-
-    // Add click tracking for analytics (optional)
-    phoneLink.addEventListener('click', function() {
-        // You can add analytics tracking here
-        console.log('Phone call initiated from floating button');
-
-        // Add a subtle animation feedback
-        this.style.transform = 'scale(0.95)';
-        setTimeout(() => {
-            this.style.transform = 'scale(1)';
-        }, 150);
-    });
-
-    // Pause animation when user hovers (already handled by CSS)
-    // But we can add some additional interactivity
-    floatingPhone.addEventListener('mouseenter', function() {
-        // Optional: Add sound notification or other effects
-        // For now, CSS handles the pause and scale
     });
 });
