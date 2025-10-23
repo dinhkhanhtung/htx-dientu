@@ -645,6 +645,95 @@ button:disabled {
     color: #5a67d8;
 }
 
+/* Footer */
+.footer {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    color: white;
+    padding: 40px 0;
+    margin-top: 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-logo i {
+    font-size: 2.5rem;
+    color: #ffd89b;
+}
+
+.footer-logo h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.footer-logo p {
+    font-size: 0.9rem;
+    color: #bdc3c7;
+    margin: 0;
+}
+
+.footer-copyright {
+    text-align: center;
+}
+
+.footer-copyright p {
+    margin: 0 0 8px 0;
+    font-size: 0.9rem;
+    color: #ecf0f1;
+}
+
+.footer-copyright p:last-child {
+    color: #bdc3c7;
+    font-size: 0.85rem;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: #3b4a5c;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+}
+
+.social-link:hover {
+    background: linear-gradient(135deg, #ffd89b 0%, #ff6b6b 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 216, 155, 0.3);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     /* Navigation Mobile */
@@ -805,5 +894,38 @@ button:disabled {
 
     #contact h2 {
         font-size: 2rem;
+    }
+
+    /* Footer Mobile */
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .footer-logo {
+        justify-content: center;
+    }
+
+    .footer-social {
+        gap: 12px;
+    }
+
+    .social-link {
+        width: 40px;
+        height: 40px;
+        font-size: 1.1rem;
+    }
+
+    .footer-logo i {
+        font-size: 2rem;
+    }
+
+    .footer-logo h3 {
+        font-size: 1.1rem;
+    }
+
+    .footer-logo p {
+        font-size: 0.85rem;
     }
 }
