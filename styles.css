@@ -834,8 +834,8 @@ button:disabled {
 
 /* Footer */
 .footer {
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-    color: white;
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 50%, #2c3e50 100%);
+    color: #ffffff;
     padding: 60px 0 20px;
     position: relative;
 }
@@ -847,7 +847,7 @@ button:disabled {
     left: 0;
     right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent, #ffd89b, transparent);
+    background: linear-gradient(90deg, transparent, #3498db, transparent);
 }
 
 .footer-content {
@@ -867,16 +867,17 @@ button:disabled {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #ffd89b;
+    color: #ffffff;
 }
 
 .footer-logo i {
     margin-right: 15px;
     font-size: 2rem;
+    color: #3498db;
 }
 
 .footer-info p {
-    color: #cbd5e0;
+    color: #ecf0f1;
     line-height: 1.8;
     margin-bottom: 25px;
     font-size: 1rem;
@@ -893,20 +894,20 @@ button:disabled {
     justify-content: center;
     width: 45px;
     height: 45px;
-    background: rgba(255, 216, 155, 0.1);
-    border: 2px solid rgba(255, 216, 155, 0.3);
+    background: rgba(52, 152, 219, 0.1);
+    border: 2px solid rgba(52, 152, 219, 0.3);
     border-radius: 50%;
-    color: #ffd89b;
+    color: #3498db;
     text-decoration: none;
     transition: all 0.3s ease;
     font-size: 1.2rem;
 }
 
 .social-link:hover {
-    background: #ffd89b;
-    color: #1a1a2e;
+    background: #3498db;
+    color: #ffffff;
     transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(255, 216, 155, 0.3);
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
 }
 
 .footer-links {
@@ -916,7 +917,7 @@ button:disabled {
 }
 
 .footer-column h4 {
-    color: #ffd89b;
+    color: #ffffff;
     font-size: 1.2rem;
     margin-bottom: 20px;
     font-weight: 600;
@@ -929,30 +930,30 @@ button:disabled {
 
 .footer-column li {
     margin-bottom: 12px;
-    color: #cbd5e0;
+    color: #ecf0f1;
     font-size: 0.95rem;
     transition: color 0.3s ease;
 }
 
 .footer-column li:hover {
-    color: #ffd89b;
+    color: #3498db;
 }
 
 .footer-column a {
-    color: #cbd5e0;
+    color: #ecf0f1;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-column a:hover {
-    color: #ffd89b;
+    color: #3498db;
 }
 
 .footer-bottom {
-    border-top: 1px solid rgba(255, 216, 155, 0.2);
+    border-top: 1px solid rgba(52, 152, 219, 0.2);
     padding-top: 20px;
     text-align: center;
-    color: #cbd5e0;
+    color: #ecf0f1;
 }
 
 .footer-bottom p {
@@ -965,5 +966,5 @@ button:disabled {
 }
 
 .footer-bottom strong {
-    color: #ffd89b;
+    color: #3498db;
 }
